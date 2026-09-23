@@ -487,7 +487,14 @@ section { padding: 100px 0; }
   .container, .container-fluid { padding: 0 16px; }
   .hero { padding: 140px 0 80px; }
   .menu-brand img { height: 40px; }
-  .process-grid, .form-row { grid-template-columns: 1fr; }
+  .form-row { grid-template-columns: 1fr; }
+
+  /* Process — 2x2 */
+  .process-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+  .step { padding: 22px 16px; }
+  .step-num { font-size: 34px; margin-bottom: 10px; }
+  .step h4 { font-size: 17px; margin-bottom: 8px; }
+  .step p { font-size: 14px; line-height: 1.5; }
 
   /* Hero — larger, left-aligned headline that doesn't run full width */
   .hero-content { text-align: left; }
